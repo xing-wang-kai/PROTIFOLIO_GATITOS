@@ -1,38 +1,125 @@
+body {
+  background-color: #FFEEEE;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  width: 940px;
+  margin: 5rem auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titulo-2 {
+  font-size: 3rem;
+  font-family: "Tangerine", serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sub_container, .titulo-2 {
+  background-color: #FAD9E6;
+  color: #333C83;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.sub_container {
+  width: 60%;
+  margin: 1rem auto;
+  font-family: DengXian;
+  font-size: 1.4rem;
+}
+
+.folder_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.imagem-container {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-imagems {
+  width: 100%;
+  border-radius: 100rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.198);
 }
+
+.detalhesfooter {
+  background-color: #FAD9E6;
+  width: 100%;
+  margin-bottom: -20px;
+  padding: 3rem;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+.detalhesfooter h5 {
+  font-family: "Tangerine", serif;
+  font-size: 2rem;
+}
+
+.coracao {
+  color: deeppink;
+}
+
+a {
+  text-decoration: none;
+}
+
+.folder_container:hover {
+  background-color: deeppink;
+  padding: 10px;
+  border-radius: 2rem;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+
+.folder_container-bem-estar:hover {
+  background-color: deeppink;
+  padding: 10px;
+  border-radius: 2rem;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+
+.folder_container-comportamento:hover {
+  background-color: #e204d7;
+  padding: 10px;
+  border-radius: 2rem;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+
+.folder_container-bem-estar, .folder_container-comportamento {
+  display: flex;
+}
+
+.folder_container-comportamento .sub_container {
+  background-color: #333C83;
+  color: #EAEAEA;
+}
+
+.folder_container-post {
+  width: 940px;
+  margin: auto;
+}
+
+.folder_container-post--ler {
+  margin: 3rem auto;
+}
+.folder_container-post--ler .imagem-container {
+  margin: auto;
+  width: 60%;
+}
+
+.index_container {
+  display: flex;
+  margin: 5rem auto;
+  padding-top: 2rem;
+}
+
+.discritivo {
+  width: 30%;
+  margin-left: auto;
+  font-family: cursive;
+  color: gray;
+}
+
+/*# sourceMappingURL=App.css.map */

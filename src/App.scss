@@ -1,0 +1,116 @@
+$primeira-cor: #FAD9E6;
+$segunda-cor: #FFEEEE;
+$terceira-cor: #EAEAEA;
+$quarta-cor: #EED7CE;
+$cor-letras: #333C83;
+body {
+    background-color: $segunda-cor;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .Container {
+    width: 940px;
+    margin: 5rem auto;
+  }
+  
+  .titulo-2 {
+    font-size: 3rem;
+    font-family: "Tangerine", serif;
+  }
+  .sub_container, .titulo-2{
+    background-color: $primeira-cor;
+    color: $cor-letras;
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px gray;
+  }
+  .sub_container {
+    width: 60%;
+    margin: 1rem auto;
+    font-family: DengXian ;
+    font-size: 1.4rem;
+  }
+
+  .folder_container{
+    display: flex;
+}
+.imagem-container{
+    width: 40%;
+    
+}
+.img-imagems{
+    width: 100%;
+    border-radius: 100rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.198);
+}
+.detalhesfooter{
+    background-color: $primeira-cor;
+    width: 100%;
+    margin-bottom: -20px;
+    padding: 3rem;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+    h5{
+        font-family: "Tangerine", serif; 
+        font-size: 2rem;
+    }
+}
+.coracao{
+    color: deeppink;
+}
+a{
+    text-decoration: none;
+}
+.folder_container:hover{
+    background-color: deeppink;
+    padding:10px;
+    border-radius: 2rem;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+.folder_container-bem-estar:hover{
+    background-color: deeppink;
+    padding:10px;
+    border-radius: 2rem;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+.folder_container-comportamento:hover{
+    background-color: rgb(226, 4, 215);
+    padding:10px;
+    border-radius: 2rem;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.198);
+}
+.folder_container-bem-estar, .folder_container-comportamento{
+    display: flex;
+    
+}
+.folder_container-comportamento{
+    .sub_container{
+        background-color: #333C83;
+        color:$terceira-cor;
+    }
+}
+.folder_container-post{
+    width: 940px;
+    margin: auto;
+}
+.folder_container-post--ler{
+    margin: 3rem auto;
+    .imagem-container{
+        margin: auto;
+        width: 60%;
+    }
+}
+.index_container{
+    display: flex;
+    margin: 5rem auto;
+    padding-top: 2rem;
+}
+.discritivo{
+    width: 30%;
+    margin-left: auto;
+    font-family: cursive;
+    color: gray
+}

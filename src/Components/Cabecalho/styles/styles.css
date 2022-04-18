@@ -1,0 +1,54 @@
+.logo_gatinho {
+  display: flex;
+}
+
+.logo_gatinho--img {
+  width: 20%;
+  border-radius: 50rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.39);
+}
+
+header {
+  background-color: #FAD9E6;
+  padding: 2rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+.titulo-cabecalho {
+  font-size: 2rem;
+  font-family: "Tangerine", serif;
+  color: #333C83;
+}
+
+.header_navbar {
+  display: flex;
+  background-color: #EAEAEA;
+  font-family: cursive;
+  color: #333C83;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px rgba(8, 2, 2, 0.398);
+}
+
+.header_navbar-list {
+  display: flex;
+  margin: 0.3rem;
+}
+
+.header_navbar-list--item {
+  list-style-type: none;
+  padding: 0.5rem 2rem;
+}
+.header_navbar-list--item:hover {
+  background-color: #333C83;
+  border-radius: 1rem;
+}
+.header_navbar-list--item:hover a {
+  color: #FAD9E6;
+}
+
+.header_navbar-list--item a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

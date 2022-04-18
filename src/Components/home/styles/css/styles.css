@@ -1,0 +1,21 @@
+.folder_container {
+  display: flex;
+}
+
+.folder_container-bem-estar, .folder_container-comportamento {
+  display: flex;
+}
+
+.imagem-container {
+  width: 40%;
+}
+
+.img-imagems {
+  width: 130%;
+  border-radius: 100rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.198);
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
