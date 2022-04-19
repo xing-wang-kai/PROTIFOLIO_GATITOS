@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'host=mysterious-everglades-36385.herokuapp.com',
+    baseURL: 'http://localhost:3001',
     //timeout: 2000,
     //headers: "X-Custom-Header": "foobar"
 })
